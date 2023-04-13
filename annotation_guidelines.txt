@@ -1,0 +1,14 @@
+- Highlight words or parts of the sentence that cause the error and then annotate the error type.
+- Highlight both source and target if it is a mistranslation or untranslated error;
+- Highlight only target if it is an addition error;
+- Highlight only source if it is an omission or source error;
+- Annotate only but all errors that affect emotions.
+- Annotate errors related to emotional words first (which are easier to identify), and then errors in the rest of the post that affects the original emotion.
+- One error (highlighted in source or target) can and should only be annotated with one error type and one error severity.
+- One instance could be annotated with one or multiple errors at different positions.
+- Annotate with the label "critical" if you are sure that the target emotion label is completely different from the source.
+- Annotate with the label "major" if you are sure that the emotion in the target text is different from the source, but it is difficult to tell how different it is compared with source. That is, it might change into a similar category, say from joy to surprise, but it is not the same as the source.
+- Annotate with the label "minor" if you feel the emotion in the target is slightly different from the source, but you might not 100\% sure about this.
+- Annotate with the label "none" if you are sure that the emotion in the target text is the same as the source.
+- If there is more than one critical errors in the instance, there is no need to annotate minor errors in other places of the sentence.
+- Delete and note down the instances whose source text makes no sense to you.
