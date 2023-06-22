@@ -1,34 +1,30 @@
 # A Human Annotated Dataset for the Quality Assessment of Emotion Translation (HADQAET) for Chinese-English Machine Translation
 
 
-This repository contains the HADQAET Dataset in our paper submitted to EAMT 2023. For details of the dataset, please see our upcoming paper *Evaluation of Chinese-English Machine Translation of Emotion-Loaded Microblog Texts: A Human Annotated Dataset for the Quality Assessment of Emotion Translation*. To use the dataset, please see our [License](#license). 
+This repository contains the HADQAET Dataset in our paper submitted to EAMT 2023. For details of the dataset, please see our paper [*Evaluation of Chinese-English Machine Translation of Emotion-Loaded Microblog Texts: A Human Annotated Dataset for the Quality Assessment of Emotion Translation*](https://arxiv.org/abs/2306.11900). To use the dataset, please see our [License](#license). 
 
-<!---[*Evaluation of Chinese-English Machine Translation of Emotion-Loaded Microblog Texts: A Human Annotated Dataset for the Quality Assessment of Emotion Translation*](https://aclanthology.org/2022.wassa-1.29/).---> 
 
-<!---
 ## Citation
 
-- Shenbin Qian, Constantin Orăsan, Félix do Carmo, Diptesh Kanojia, and Qiuliang Li. 2023. Evaluation of Chinese-English Machine Translation of Emotion-Loaded Microblog Texts: A Human Annotated Dataset for the Quality Assessment of Emotion Translation. In *Proceedings of the 24th Annual Conference of the European Association of Machine Translation*, Finland, Tempere. European Association for Machine Translation.
+- Shenbin Qian, Constantin Orăsan, Félix do Carmo, Qiuliang Li and Diptesh Kanojia. 2023. Evaluation of Chinese-English Machine Translation of Emotion-Loaded Microblog Texts: A Human Annotated Dataset for the Quality Assessment of Emotion Translation. In *Proceedings of the 24th Annual Conference of the European Association of Machine Translation*, Finland, Tempere. European Association for Machine Translation.
 
 ```
-@inproceedings{qian-etal-2022-surrey,
-    title = "{SURREY}-{CTS}-{NLP} at {WASSA}2022: An Experiment of Discourse and Sentiment Analysis for the Prediction of Empathy, Distress and Emotion",
+@inproceedings{qian2023,
+    title = "Evaluation of Chinese-English Machine Translation of Emotion-Loaded Microblog Texts: A Human Annotated Dataset for the Quality Assessment of Emotion Translation.",
     author = "Qian, Shenbin  and
       Orasan, Constantin  and
-      Kanojia, Diptesh  and
-      Saadany, Hadeel  and
-      Do Carmo, F{\'e}lix",
-    booktitle = "Proceedings of the 12th Workshop on Computational Approaches to Subjectivity, Sentiment {\&} Social Media Analysis",
-    month = may,
-    year = "2022",
-    address = "Dublin, Ireland",
-    publisher = "Association for Computational Linguistics",
-    url = "https://aclanthology.org/2022.wassa-1.29",
-    pages = "271--275",
-    abstract = "This paper summarises the submissions our team, SURREY-CTS-NLP has made for the WASSA 2022 Shared Task for the prediction of empathy, distress and emotion. In this work, we tested different learning strategies, like ensemble learning and multi-task learning, as well as several large language models, but our primary focus was on analysing and extracting emotion-intensive features from both the essays in the training data and the news articles, to better predict empathy and distress scores from the perspective of discourse and sentiment analysis. We propose several text feature extraction schemes to compensate the small size of training examples for fine-tuning pretrained language models, including methods based on Rhetorical Structure Theory (RST) parsing, cosine similarity and sentiment score. Our best submissions achieve an average Pearson correlation score of 0.518 for the empathy prediction task and an F1 score of 0.571 for the emotion prediction task, indicating that using these schemes to extract emotion-intensive information can help improve model performance.",
+      Félix do Carmo  and
+      Qiuliang Li  and
+      Diptesh Kanojia",
+    booktitle = "Proceedings of the 24th Annual Conference of the European Association of Machine Translation",
+    month = june,
+    year = "2023",
+    address = "Tampere, Finland",
+    publisher = "European Association for Machine Translation",
+    abstract = "In this paper, we focus on how current Machine Translation (MT) tools perform on the translation of emotion-loaded texts by evaluating outputs from Google Translate according to a framework proposed in this paper. We propose this evaluation framework based on the Multidimensional Quality Metrics (MQM) and perform a detailed error analysis of the MT outputs. From our analysis, we observe that about 50% of the MT outputs fail to preserve the original emotion. After further analysis of the errors, we find that emotion carrying words and linguistic phenomena such as polysemous words, negation, abbreviation etc., are common causes for these translation errors.",
 }
 ```
----> 
+
 
 ## Data
 
