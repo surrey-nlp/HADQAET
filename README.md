@@ -1,7 +1,7 @@
 # A Human Annotated Dataset for the Quality Assessment of Emotion Translation (HADQAET) for Chinese-English Machine Translation
 
 
-This repository contains the HADQAET Dataset in our paper submitted to EAMT 2023. For details of the dataset, please see our paper [*Evaluation of Chinese-English Machine Translation of Emotion-Loaded Microblog Texts: A Human Annotated Dataset for the Quality Assessment of Emotion Translation*](https://arxiv.org/abs/2306.11900). To use the dataset, please see our [License](#license). 
+This repository contains the HADQAET Dataset in our paper submitted to EAMT 2023. For details of the dataset, please see our paper [*Evaluation of Chinese-English Machine Translation of Emotion-Loaded Microblog Texts: A Human Annotated Dataset for the Quality Assessment of Emotion Translation*](https://events.tuni.fi/uploads/2023/06/11678752-proceedings-eamt2023.pdf) or [at arXiv](https://arxiv.org/abs/2306.11900). To use the dataset, please see our [License](#license). 
 
 
 ## Citation
