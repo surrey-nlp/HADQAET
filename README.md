@@ -28,8 +28,12 @@ This repository contains the HADQAET Dataset in our paper submitted to EAMT 2023
 
 ## Data
 
+### Annotation Data
 The annotated dataset for the quality assessment of emotion translation can be found in the "data" folder. The inter and intra-annotator agreement data can be seen under the "IAA" folder. Detailed annotation guidelines can be seen in the "annotation_guidelines.txt" file.
 
+### Post-editing Data
+
+The post-edited reference translations are now available under the "data" folder. We hired a translation company to post-edit the MT outputs that have errors in terms of emotion preservation in the annotation process. The post-editing activity is funded by the [European Association for Machine Translation (EAMT)](https://eamt.org/). Note only about 70% percent of the whole data is released now (The rest will be released in a shared task). This subset includes a total of 4038 instances and about 3000 of them have post-edited reference translations. Details will be released soon in our project report at EAMT 2024. 
 
 ## License
 
