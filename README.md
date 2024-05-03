@@ -30,17 +30,16 @@ This repository contains the HADQAET Dataset in our paper submitted to EAMT 2023
 
 ## Data
 
-### Annotation Data
+### Translation Quality Evaluation Data
 The annotated dataset for the quality assessment of emotion translation can be found in the "data" folder. The inter and intra-annotator agreement data can be seen under the "IAA" folder. Detailed annotation guidelines can be seen in the "annotation_guidelines.txt" file.
 
 ### Post-editing Data
 
-The post-edited reference translations are now available under the "data" folder. We hired a translation company to post-edit the MT outputs that have errors in terms of emotion preservation in the annotation process. The post-editing activity is funded by the [European Association for Machine Translation (EAMT)](https://eamt.org/). Note only about 70% of the whole data is released now (The rest will be released in a shared task). This subset includes a total of 4038 instances and about 3000 of them have post-edited reference translations. Details will be released soon in our project report at EAMT 2024. 
+The post-edited reference translations are now available under the "data" folder. We hired a translation company to post-edit the MT outputs that have errors in terms of emotion preservation in the annotation process. The post-editing activity is funded by the [European Association for Machine Translation (EAMT)](https://eamt.org/). Note only about 70% of the whole data is released now (The rest will be released in a shared task). This subset includes a total of 4038 instances and about 3000 of them have post-edited reference translations. Details will be released soon in our project paper at EAMT 2024. 
 
 ## License
 
 This resource is built on top of the dataset in the [SMP2020-EWECT shared task](https://smp2020ewect.github.io/), provided by the [Social Computing and Information Retrieval Research Center of Harbin Institute of Technology](http://ir.hit.edu.cn/) and sourced from [Sina Weibo](https://weibo.com/). The MT output was generated from [Google Translate](https://translate.google.co.uk/) on the 30th of May, 2022, and distributed under the [Terms of Service](https://policies.google.com/terms?hl=en-US) of Google.
 
-Though the SMP2020-EWECT dataset does not have license information, the distribution of the public content of Sina Weibo needs to follow its [Terms of Service (Clause 1.3)](https://m.weibo.cn/c/regagreement?from=h5), which allows itself and developers to use and distribute any published posts including texts, pictures or videos etc. The source text of this dataset, hence, remains under Sina Weibo's [developer license](https://open.weibo.com/wiki/%E5%BC%80%E5%8F%91%E8%80%85%E5%8D%8F%E8%AE%AE).
-
-To use this dataset also needs to cite [our paper](#Citation). 
+Though the SMP2020-EWECT dataset does not have license information, the distribution of the public content of Sina Weibo needs to follow its [Terms of Service (Clause 1.3)](https://m.weibo.cn/c/regagreement?from=h5), which allows itself and developers to use and distribute any published posts including texts, pictures or videos etc. The source text of this dataset, hence, remains under Sina Weibo's [developer license](https://open.weibo.com/wiki/%E5%BC%80%E5%8F%91%E8%80%85%E5%8D%8F%E8%AE%AE). The quality evaluation data and post-edited reference translations are licensed under a [Creative
+Commons 4.0 licence](https://creativecommons.org/licenses/by/4.0/deed.en).
