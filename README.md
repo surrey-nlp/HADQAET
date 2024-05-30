@@ -43,3 +43,8 @@ This resource is built on top of the dataset in the [SMP2020-EWECT shared task](
 
 Though the SMP2020-EWECT dataset does not have license information, the distribution of the public content of Sina Weibo needs to follow its [Terms of Service (Clause 1.3)](https://m.weibo.cn/c/regagreement?from=h5), which allows itself and developers to use and distribute any published posts including texts, pictures or videos etc. The source text of this dataset, hence, remains under Sina Weibo's [developer license](https://open.weibo.com/wiki/%E5%BC%80%E5%8F%91%E8%80%85%E5%8D%8F%E8%AE%AE). The quality evaluation data and post-edited reference translations are licensed under a [Creative
 Commons 4.0 licence](https://creativecommons.org/licenses/by/4.0/deed.en).
+
+
+## Maintainer
+
+[Shenbin Qian](https://github.com/shenbinqian)
