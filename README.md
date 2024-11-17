@@ -35,7 +35,35 @@ The annotated dataset for the quality assessment of emotion translation can be f
 
 ### Post-editing Data
 
-The post-edited reference translations are now available under the "data" folder. We hired a translation company to post-edit the MT outputs that have errors in terms of emotion preservation in the annotation process. The post-editing activity is funded by the [European Association for Machine Translation (EAMT)](https://eamt.org/). Note only about 70% of the whole data is released now (The rest will be released in a shared task). This subset includes a total of 4038 instances and about 3000 of them have post-edited reference translations. Details will be released soon in our project paper at EAMT 2024. 
+The post-edited reference translations are now available under the "data" folder. We hired a translation company to post-edit the MT outputs that have errors in terms of emotion preservation in the annotation process. The post-editing activity is funded by the [European Association for Machine Translation (EAMT)](https://eamt.org/). Note only about 70% of the whole data is released now (The rest will be released in a shared task). This subset includes a total of 4038 instances and about 3000 of them have post-edited reference translations. Details can be found in our [project paper](https://aclanthology.org/2024.eamt-2.22/). To use the post-edited reference translations, please cite as follows:
+
+```
+@inproceedings{qian-etal-2024-evaluating,
+    title = "Evaluating Machine Translation for Emotion-loaded User Generated Content ({T}rans{E}val4{E}mo-{UGC})",
+    author = "Qian, Shenbin  and
+      Orasan, Constantin  and
+      Do Carmo, F{\'e}lix  and
+      Kanojia, Diptesh",
+    editor = "Scarton, Carolina  and
+      Prescott, Charlotte  and
+      Bayliss, Chris  and
+      Oakley, Chris  and
+      Wright, Joanna  and
+      Wrigley, Stuart  and
+      Song, Xingyi  and
+      Gow-Smith, Edward  and
+      Forcada, Mikel  and
+      Moniz, Helena",
+    booktitle = "Proceedings of the 25th Annual Conference of the European Association for Machine Translation (Volume 2)",
+    month = jun,
+    year = "2024",
+    address = "Sheffield, UK",
+    publisher = "European Association for Machine Translation (EAMT)",
+    url = "https://aclanthology.org/2024.eamt-2.22",
+    pages = "43--44",
+    abstract = "This paper presents a dataset for evaluating the machine translation of emotion-loaded user generated content. It contains human-annotated quality evaluation data and post-edited reference translations. The dataset is available at our GitHub repository.",
+}
+```
 
 ## License
 
